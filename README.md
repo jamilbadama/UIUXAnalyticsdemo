@@ -1,5 +1,35 @@
 #  UI/UX Authoring Tool
 
+<!-- make your own badges from here: http://shields.io/ -->
+[![Version](https://img.shields.io/badge/MM__SL__UI/UX-V2.5-ff69b4.svg)](http://www.miningminds.re.kr/english/)
+![License](https://img.shields.io/badge/Apache%20License%20-Version%202.0-yellowgreen.svg)
+
+--------------------------
+
+<!-- Update the list and the main body. -->
+
+- [1. Introduction and core concepts](#1-introduction)
+    - [1.1 Device](#11-device)
+    - [1.2 Context](#12-context)
+    - [1.1 Recognizer](#13-recognizer)
+	
+- [2. Getting started](#2-getting-started)
+    - [2.1 Requirements](#21-requirements)
+    - [2.2 Installation](#22-installation)
+    - [2.3 Usage](#23-usage)
+	
+- [3. Features](#3-features)
+    - [3.1 Plug and play recognizers](#31-plug-and-play-recognizers)
+    - [3.2 External Configuration File](#32-external-configuration-file)
+   
+- [4. Author](#4-authors)
+
+- [5. For more details](#5-for-more-details)
+
+- [6. License](#6-license)
+
+<!-- Main Body of the Document -->
+
 This document describes how to get started using the UI/UX Authoring tool Tracking SDK for Android. UI/UX Authoring tool is open source UX engine that gives you valuable insights into your application user, and much more, so you can optimize your strategy and experience of your application user.
 
 
