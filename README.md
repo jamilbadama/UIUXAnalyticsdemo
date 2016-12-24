@@ -46,7 +46,7 @@ Import the uiuxanalytics library into your Android app, then add this to your ap
                     //.....
                     compile project(':uiuxanalytics')
                      }
-
+Note: path to andoid sdk `analytics/UIUXAnalyticsdemo/uiuxanalytics`
 ### 1.3 Initialize Tracker
 
 Developers could manage the tracker lifecycle by themselves. To ensure that the matrics are not overcounted, it is highly recommended that the tracker be created and managed in the Application class. 
