@@ -22,13 +22,11 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
     - [2.2 Dependencies](#22-dependencies)
     - [2.3 Run Migrations](#23-run-migrations)
 	
-- [3. Features](#3-features)
+- [3. Contribution](#3-contribution)
    
-- [4. Contribution](#4-contribution)
-   
-- [5. Authors](#5-authors)
+- [4. Authors](#4-authors)
 
-- [6. License](#6-license)
+- [5. License](#5-license)
 
 <!-- Main Body of the Document -->
 
@@ -133,24 +131,16 @@ After adding the 'ui_ux_authoring_tool' in your project setting, then run the fo
         $ python manage.py migrate  
 	
 
-# 3. Features
-
-Write the main features 
-
-- Heterogeneous data Processing Streams 1: Providing extensible and understandable structured format to variety of data. 
-- Fine-grained Information access 2: Processable and procedural format to all layers and modules of MM Platform.
-- Extensible Data Model 3: Integratable new models based on the different input data sources.
-
-# 4. Contribution
+# 3. Contribution
 
 In this implementation, we are contributing a Django Analytics for Andoird application.
 
-# 5. Authors
+# 4. Authors
 
 * Name : Jamil Hussain ,   email : jamil@oslab.khu.ac.kr.
 * Name : Anees ul Hassan , email : anees@oslab.khu.ac.kr.
 
-# 6. License
+# 5. License
 
 Copyright [2016] [Jamil Hussain]
 
