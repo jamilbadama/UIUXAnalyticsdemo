@@ -5,7 +5,7 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
 
 # 1. UI/UX Authoring Tool Android Tracking SDK
 
-## 1.1 Getting Started
+### 1.1 Getting Started
 
 Integrating UI/UX Authoring tool tracking into your Android app
 
