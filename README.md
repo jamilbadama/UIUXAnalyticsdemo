@@ -10,7 +10,7 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
 Integrating UI/UX Authoring tool tracking into your Android app
 
 ### 1.2 Include Library
-Import the uiuxanalytics library into your Android app, then add this to your app build.gradle file:
+Import the uiuxanalytics library into your Android app, then add this to your app build.gradle file: check the UIUXAnalyticsdemo as sample
 
         dependencies {
                     compile fileTree(dir: 'libs', include: ['*.jar'])
