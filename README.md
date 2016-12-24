@@ -87,9 +87,6 @@ Allow to collect the data based on user id
 UI/UX Authoring tool is web based UX engine that collects the user app usage behavior data by integrating the SDK in android applications. This is Django package, you must install Django befor using this package.
 
 ### 2.1. Installation
-Download from the repo, pip is still the recommended way to install dependencies:
-
-
 To get started with UI/UX Authoring tool analytics, the package must first be dowloaded from the repo then access the dowloaded folder via command line then run the follow command
 
        pip install -r requirements.txt
