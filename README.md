@@ -17,10 +17,10 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
     - [1.4 Tracker Usage](#14-tracker-usage)
     
    
-- [2. Getting started](#2-getting-Started)
-    - [2.1 Requirements](#21-requirements)
-    - [2.2 Installation](#22-installation)
-    - [2.3 Usage](#23-usage)
+- [2. UI/UX Authoring Tool Web Interface](#2-uiux-authoring-tool-web-interface)
+    - [2.1 Installation](#21-installation)
+    - [2.2 Dependencies](#22-dependencies)
+    - [2.3 Run Migrations](#23-run-migrations)
 	
 - [3. Features](#3-features)
    
@@ -101,7 +101,7 @@ To collect data about user's interaction with interactive components of your app
         "action").name("label").value(1000f).with(tracker);
 
 #### 1.4.3 Track exceptions and errors 
-To collect the exceptions and errors occrurred in the application use a 
+To collect the exceptions and errors occrurred in the application use a TrackException method
 
         TrackHelper.track().exception(new Exception("OnPurposeException")).description("Crash button").fatal(false).with(getTracker());
 
@@ -126,7 +126,7 @@ To get started with UI/UX Authoring tool analytics, the package must first be do
 * Django
 * Django REST framework 
 
-
+### 2.3 Run Migrations
 After adding the 'ui_ux_authoring_tool' in your project setting, then run the following commands
 
         $ python manage.py makemigrations
