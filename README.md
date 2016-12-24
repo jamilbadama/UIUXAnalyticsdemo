@@ -11,7 +11,11 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
 
 
 - [1. UI/UX Authoring Tool Android Tracking SDK](#1-uiux-authoring-tool-android-tracking-sdk)
-    - [1.1 Core Implementation](#11-core-implementation)
+    - [1.1 Getting Started](#11-getting-Started)
+    - [1.2 Include Library](#12-include-library)
+    - [1.3 Initialize Tracker](#13-initialize-tracker)
+    - [1.4 Tracker Usage](#14-tracker-usage)
+    
    
 - [2. Getting started](#2-getting-Started)
     - [2.1 Requirements](#21-requirements)
