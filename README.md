@@ -26,7 +26,7 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
    
 - [4. Contribution](#4-contribution)
    
-- [5. Author](#5-author)
+- [5. Authors](#5-authors)
 
 - [6. License](#6-license)
 
@@ -145,7 +145,7 @@ Write the main features
 
 In this implementation, we are contributing a Django Analytics for Andoird application.
 
-# 5. Author
+# 5. Authors
 
 * Name : Jamil Hussain ,   email : jamil@oslab.khu.ac.kr.
 * Name : Anees ul Hassan , email : anees@oslab.khu.ac.kr.
