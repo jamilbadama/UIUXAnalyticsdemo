@@ -49,9 +49,9 @@ Don't forget to add application name to your AndroidManifest.xml file.
                <!-- activities goes here -->
          </application>
 
-### 1.3 Tracker Usage
+### 1.4 Tracker Usage
 
-#### 1.3.1 Track Screen Views
+#### 1.4.1 Track Screen Views
 
 To send a screen view set the screen path and titles on the tracker
 
@@ -64,14 +64,21 @@ To send a screen view set the screen path and titles on the tracker
              }
            }
 
-#### 1.3.2 Track events 
+#### 1.4.2 Track events 
 
-To collect data about user's interaction with interactive components of your app, like button presses or the use of a particular item in a game use trackEvent method.
+To collect data about user's interaction with interactive components of your app, like button presses or the use of a particular item in a application use trackEvent method.
 
        TrackHelper.track().event("category", 
         "action").name("label").value(1000f).with(tracker);
 
-### 1.3.3 User ID
+#### 1.4.3 Track exceptions and errors 
+To collect the exceptions and errors occrurred in the application use a 
+
+
+       TrackHelper.track().event("category", 
+        "action").name("label").value(1000f).with(tracker);
+
+#### 1.4.4 User ID
 
 Allow to collect the data based on user id
 
