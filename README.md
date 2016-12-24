@@ -10,15 +10,12 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
 Integrating UI/UX Authoring tool tracking into your Android app
 
 ### 1.2 Include Library
-
-Add this to your apps build.gradle file:
+Import the uiuxanalytics library into your Android app, then add this to your app build.gradle file:
 
         dependencies {
-            repositories{
-                      jcenter()
-                        }
-                     // ...
-                     compile 'khu.uclab.mm.sl.uiux.analytics'
+                    compile fileTree(dir: 'libs', include: ['*.jar'])
+                    //.....
+                    compile project(':uiuxanalytics')
                      }
 
 ### 1.3 Initialize Tracker
@@ -34,7 +31,7 @@ Developers could manage the tracker lifecycle by themselves. To ensure that the 
                }
                 try {
                     uiuxanalayticstracker = 
-                    uiuxanalayticstracker.getInstance(this).newTracker("trackerapiurl", 1);
+                    uiuxanalayticstracker.getInstance(this).newTracker("http://...../api/analytics/actionlog/", appID);
                 } catch (MalformedURLException e){
                     Log.w(Tracker.LOGGER_TAG, "url is malformed", e);
                     return null;
@@ -43,6 +40,7 @@ Developers could manage the tracker lifecycle by themselves. To ensure that the 
                 }     
                }
 
+Note:use the app ID Created by UI/UX Authroing Tool Web Interface 
 Don't forget to add application name to your AndroidManifest.xml file.
 
          <application android:name=".YourApplication">
@@ -74,9 +72,7 @@ To collect data about user's interaction with interactive components of your app
 #### 1.4.3 Track exceptions and errors 
 To collect the exceptions and errors occrurred in the application use a 
 
-
-       TrackHelper.track().event("category", 
-        "action").name("label").value(1000f).with(tracker);
+        TrackHelper.track().exception(new Exception("OnPurposeException")).description("Crash button").fatal(false).with(getTracker());
 
 #### 1.4.4 User ID
 
@@ -103,7 +99,6 @@ After you install ui_ux_authoring_tool you need to add it to the list of install
             'ui_ux_authoring_tool';
             ...
          ]
-
 After adding the 'ui_ux_authoring_tool' in your project setting, then run the following commands
 
         $ python manage.py makemigrations
