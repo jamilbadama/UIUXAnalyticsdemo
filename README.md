@@ -10,25 +10,23 @@
 This document describes how to get started using the UI/UX Authoring tool Tracking SDK for Android. UI/UX Authoring tool is open source UX engine that gives you valuable insights into your application user, and much more, so you can optimize your strategy and experience of your application user.
 
 
-- [1. Introduction and core concepts](#1-introduction)
-    - [1.1 Device](#11-device)
-    - [1.2 Context](#12-context)
-    - [1.1 Recognizer](#13-recognizer)
-	
-- [2. Getting started](#2-getting-started)
+- [1. UI/UX Authoring Tool Android Tracking SDK](#1-introduction)
+    - [1.1 Core Implementation](#11-core-implementation)
+   
+- [2. Getting started](#2-getting-Started)
     - [2.1 Requirements](#21-requirements)
     - [2.2 Installation](#22-installation)
     - [2.3 Usage](#23-usage)
 	
 - [3. Features](#3-features)
-    - [3.1 Plug and play recognizers](#31-plug-and-play-recognizers)
-    - [3.2 External Configuration File](#32-external-configuration-file)
    
-- [4. Author](#4-authors)
-
-- [5. For more details](#5-for-more-details)
+- [4. Contribution](#4-contribution)
+   
+- [5. Author](#5-author)
 
 - [6. License](#6-license)
+
+<!-- Main Body of the Document -->
 
 <!-- Main Body of the Document -->
 
@@ -125,8 +123,39 @@ To get started with UI/UX Authoring tool analytics, the package must first be do
 * Django REST framework 
 
 
-
 After adding the 'ui_ux_authoring_tool' in your project setting, then run the following commands
 
         $ python manage.py makemigrations
         $ python manage.py migrate  
+	
+
+# 3. Features
+
+Write the main features 
+
+- Heterogeneous data Processing Streams 1: Providing extensible and understandable structured format to variety of data. 
+- Fine-grained Information access 2: Processable and procedural format to all layers and modules of MM Platform.
+- Extensible Data Model 3: Integratable new models based on the different input data sources.
+
+# 4. Contribution
+
+In this implementation, we are contributing a Django Analytics for Andoird application.
+
+# 5. Author
+
+* Name : Jamil Hussain ,   email : jamil@oslab.khu.ac.kr.
+* Name : Anees ul Hassan , email : anees@oslab.khu.ac.kr.
+
+# 6. License
+
+Copyright [2016] [Jamil Hussain]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+<br>
