@@ -24,7 +24,7 @@ This document describes how to get started using the UI/UX Authoring tool Tracki
    
 - [5. Author](#5-author)
 
-- [6. License](#6)
+- [6. License](#6-license)
 
 <!-- Main Body of the Document -->
 
