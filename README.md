@@ -3,7 +3,7 @@
 This document describes how to get started using the UI/UX Authoring tool Tracking SDK for Android. UI/UX Authoring tool is open source UX engine that gives you valuable insights into your application user, and much more, so you can optimize your strategy and experience of your application user.
 
 
-## 1 UI/UX Authoring Tool Android Tracking SDK
+## 1. UI/UX Authoring Tool Android Tracking SDK
 
 ### 1.1 Getting Started
 
@@ -79,7 +79,7 @@ Allow to collect the data based on user id
 
 
 
-## 2 UI/UX Authoring Tool Web Interface
+## 2. UI/UX Authoring Tool Web Interface
 
 UI/UX Authoring tool is web based UX engine that collects the user app usage behavior data by integrating the SDK in android applications. This is Django package, you must install Django befor using this package.
 
