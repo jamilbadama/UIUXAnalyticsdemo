@@ -5,8 +5,10 @@
 ![License](https://img.shields.io/badge/Apache%20License%20-Version%202.0-yellowgreen.svg)
 
 --------------------------
-
 <!-- Update the list and the main body. -->
+
+This document describes how to get started using the UI/UX Authoring tool Tracking SDK for Android. UI/UX Authoring tool is open source UX engine that gives you valuable insights into your application user, and much more, so you can optimize your strategy and experience of your application user.
+
 
 - [1. Introduction and core concepts](#1-introduction)
     - [1.1 Device](#11-device)
@@ -29,9 +31,6 @@
 - [6. License](#6-license)
 
 <!-- Main Body of the Document -->
-
-This document describes how to get started using the UI/UX Authoring tool Tracking SDK for Android. UI/UX Authoring tool is open source UX engine that gives you valuable insights into your application user, and much more, so you can optimize your strategy and experience of your application user.
-
 
 ## 1. UI/UX Authoring Tool Android Tracking SDK
 
